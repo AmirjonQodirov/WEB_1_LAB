@@ -1,0 +1,97 @@
+a {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+table#mainTable {
+	"background-image: url(src/img/1.jpg); background-attachment: fixed;
+    font-family: serif-sans;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background: none repeat scroll 0% 0%;
+    background-attachment: fixed;
+    background-color: rgba(192, 192, 192, 0.5);
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+
+
+#mainTable td {
+    width: 25%;
+}
+
+tr.heading, tr.heading a {
+    color: black; /* Цвет символов */
+    font-family: serif; /* Шрифт serif */
+    position: relative; /* Относительное позиционирование */
+    font-size: 20px;
+}
+
+[blick="on"]:hover, td[blick="on"] a:hover {
+    color: #129cff;
+}
+
+
+legend {
+    color: white;
+    font-family: MyFont2, MyFont1, Helvetica, PTSansRegular, Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+img.task {
+    border-radius: 15px;
+    width: 90%;
+}
+
+img.graf {
+    border-radius: 25%;
+
+}
+
+img.ty {
+    border-radius: 25%;
+    width: 30%;
+}
+
+input[type=submit] {
+	margin: 10%;
+    padding: 3px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    margin: 10%;
+	padding: 3px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.difH {
+    color: #000000;
+    font-weight: bold;
+}
+
+.dif {
+    color: #23130a;
+}
